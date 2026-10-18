@@ -5,8 +5,8 @@
   "arquivo_drive_id": "10RjgzVfo33_tvPcR1CrHio_4ZYFQF1nX",
   "sha256_original": "bb8124ecee04cedc872a9c7f217a7744ac29888b969520de44ac6db825b68d65",
   "arquivo_derivado": "historico_avarias.csv",
-  "sha256_derivado": "0c02aecaacd2876ab2549bf31acf01354ae39ab0ec89c557b22356a904fa174c",
-  "linhas": 104119,
+  "sha256_derivado": "432ef9ab8c49898740b8a54b1a8f10119140472129ed3745ed98f770761cb46a",
+  "linhas": 5535,
   "colunas": [
     "Nota",
     "Indisponível",
@@ -17,5 +17,11 @@
     "Hora do fim da avaria",
     "assinatura_registro"
   ],
-  "transformacao": "Seleção de sete colunas de entrada, preservando todas as linhas, mais assinatura técnica calculada sobre as 22 colunas normalizadas para manter a deduplicação original. Serialização de datas/horas do Excel para CSV. Textos livres não foram incluídos."
+  "transformacao": "Recorte dos registros utilizados no experimento; sete campos de entrada e assinatura para preservar a identificação de duplicatas da origem. Sem textos livres.",
+  "recorte": {
+    "ano": 2026,
+    "indisponivel": "X",
+    "equipamento": "identificador individual -ECR-ESTACAO-ERnn",
+    "criterio": "Preservadas somente avarias com início válido no ano e usadas no ranking; durações ausentes permanecem para auditoria."
+  }
 }

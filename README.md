@@ -28,15 +28,16 @@ outro projeto ou baixar a planilha original para reproduzir os experimentos.
 ## Dados reais e dados simulados
 
 A [pasta original fornecida ao grupo](https://drive.google.com/drive/folders/1S7f7mk8bg0clGllzc8GTgvakvvnJ3NMP)
-contém histórico de manutenção. A planilha `ecr_09-26.XLSX` tem 104.119 registros
-e 22 colunas, mas não contém as leituras físicas previstas no enunciado.
+contém histórico de manutenção. O experimento utiliza somente avarias iniciadas
+em 2026, com equipamento individual identificado e `Indisponível = X`.
 
-`dados/historico_avarias.csv` preserva todas as linhas, com apenas sete campos
-usados nesta entrega: nota, indicador de indisponibilidade, local de instalação,
-data/hora de início e data/hora de fim. Uma oitava coluna, `assinatura_registro`,
-é uma assinatura técnica das 22 colunas normalizadas, para manter a mesma
-identificação de duplicatas sem publicar os textos livres. A origem, a seleção de
-campos e os hashes dos arquivos constam de `dados/procedencia_historico.json`.
+`dados/historico_avarias.csv` contém **5.535 registros do recorte**. Após a remoção
+de 15 duplicatas, permanecem **5.520 registros de 196 escadas**. São mantidos
+os sete campos necessários ao cálculo: nota, indicador de indisponibilidade,
+local de instalação e datas/horas de início e fim. A coluna `assinatura_registro`
+preserva a identificação de duplicatas da origem. Registros sem duração válida
+permanecem para auditoria de cobertura. A seleção e a procedência estão em
+`dados/procedencia_historico.json`.
 
 O notebook analisa duas situações **separadamente**:
 
@@ -46,8 +47,6 @@ O notebook analisa duas situações **separadamente**:
    temperatura, corrente, tensão, óleo e velocidade. Servem para demonstrar o
    fluxo de sensores até o ranking e o plano. Não são medições da Motiva.
 
-A simulação foi solicitada pelo grupo diante da ausência de sensores no material
-fornecido. A aceitação dessa adaptação depende do professor.
 `simulacao.py` documenta o gerador com semente 566903. A base bruta artificial
 contém duas duplicatas e três lacunas internas de temperatura intencionais;
 `preparar()` remove essas cópias e interpola as lacunas por equipamento.
