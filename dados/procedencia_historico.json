@@ -1,0 +1,21 @@
+{
+  "origem": "Histórico real de avarias; não é telemetria de sensores",
+  "pasta_drive": "https://drive.google.com/drive/folders/1S7f7mk8bg0clGllzc8GTgvakvvnJ3NMP",
+  "arquivo_original": "ecr_09-26.XLSX",
+  "arquivo_drive_id": "10RjgzVfo33_tvPcR1CrHio_4ZYFQF1nX",
+  "sha256_original": "bb8124ecee04cedc872a9c7f217a7744ac29888b969520de44ac6db825b68d65",
+  "arquivo_derivado": "historico_avarias.csv",
+  "sha256_derivado": "0c02aecaacd2876ab2549bf31acf01354ae39ab0ec89c557b22356a904fa174c",
+  "linhas": 104119,
+  "colunas": [
+    "Nota",
+    "Indisponível",
+    "Local de Instalação",
+    "Início avaria",
+    "Hora início avaria",
+    "Fim da avaria",
+    "Hora do fim da avaria",
+    "assinatura_registro"
+  ],
+  "transformacao": "Seleção de sete colunas de entrada, preservando todas as linhas, mais assinatura técnica calculada sobre as 22 colunas normalizadas para manter a deduplicação original. Serialização de datas/horas do Excel para CSV. Textos livres não foram incluídos."
+}

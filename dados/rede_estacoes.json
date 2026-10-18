@@ -1,0 +1,164 @@
+{
+  "vertices": [
+    {
+      "id": "BASE",
+      "nome": "Base didática próxima a Vila Sônia",
+      "x": -1,
+      "y": 0
+    },
+    {
+      "id": "VSO",
+      "nome": "Vila Sônia",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "id": "MBI",
+      "nome": "São Paulo-Morumbi",
+      "x": 1,
+      "y": 0
+    },
+    {
+      "id": "BUT",
+      "nome": "Butantã",
+      "x": 2,
+      "y": 0
+    },
+    {
+      "id": "PIN",
+      "nome": "Pinheiros",
+      "x": 3,
+      "y": 0
+    },
+    {
+      "id": "FAL",
+      "nome": "Faria Lima",
+      "x": 4,
+      "y": 0
+    },
+    {
+      "id": "FRA",
+      "nome": "Fradique Coutinho",
+      "x": 5,
+      "y": 0
+    },
+    {
+      "id": "FRE",
+      "nome": "Oscar Freire",
+      "x": 6,
+      "y": 0
+    },
+    {
+      "id": "PTA",
+      "nome": "Paulista",
+      "x": 7,
+      "y": 0
+    },
+    {
+      "id": "HIG",
+      "nome": "Higienópolis-Mackenzie",
+      "x": 8,
+      "y": 0
+    },
+    {
+      "id": "REP",
+      "nome": "República",
+      "x": 9,
+      "y": 0
+    },
+    {
+      "id": "LUZ",
+      "nome": "Luz",
+      "x": 10,
+      "y": 0
+    },
+    {
+      "id": "TVS",
+      "nome": "Terminal Vila Sônia (hipótese para código TVS)",
+      "x": 0,
+      "y": 1
+    }
+  ],
+  "arestas": [
+    {
+      "origem": "BASE",
+      "destino": "VSO",
+      "minutos": 5,
+      "tipo": "acesso hipotético"
+    },
+    {
+      "origem": "VSO",
+      "destino": "MBI",
+      "minutos": 3,
+      "tipo": "trecho entre estações, tempo hipotético"
+    },
+    {
+      "origem": "MBI",
+      "destino": "BUT",
+      "minutos": 4,
+      "tipo": "trecho entre estações, tempo hipotético"
+    },
+    {
+      "origem": "BUT",
+      "destino": "PIN",
+      "minutos": 3,
+      "tipo": "trecho entre estações, tempo hipotético"
+    },
+    {
+      "origem": "PIN",
+      "destino": "FAL",
+      "minutos": 4,
+      "tipo": "trecho entre estações, tempo hipotético"
+    },
+    {
+      "origem": "FAL",
+      "destino": "FRA",
+      "minutos": 3,
+      "tipo": "trecho entre estações, tempo hipotético"
+    },
+    {
+      "origem": "FRA",
+      "destino": "FRE",
+      "minutos": 4,
+      "tipo": "trecho entre estações, tempo hipotético"
+    },
+    {
+      "origem": "FRE",
+      "destino": "PTA",
+      "minutos": 3,
+      "tipo": "trecho entre estações, tempo hipotético"
+    },
+    {
+      "origem": "PTA",
+      "destino": "HIG",
+      "minutos": 4,
+      "tipo": "trecho entre estações, tempo hipotético"
+    },
+    {
+      "origem": "HIG",
+      "destino": "REP",
+      "minutos": 3,
+      "tipo": "trecho entre estações, tempo hipotético"
+    },
+    {
+      "origem": "REP",
+      "destino": "LUZ",
+      "minutos": 4,
+      "tipo": "trecho entre estações, tempo hipotético"
+    },
+    {
+      "origem": "VSO",
+      "destino": "TVS",
+      "minutos": 4,
+      "tipo": "acesso hipotético"
+    },
+    {
+      "origem": "BASE",
+      "destino": "PIN",
+      "minutos": 25,
+      "tipo": "deslocamento viário hipotético"
+    }
+  ],
+  "fonte_estacoes": "https://trilhos.motiva.com.br/linha-4-amarela/estacoes/",
+  "aviso": "Pesos, base, coordenadas e acesso viário são hipóteses didáticas; não são horários oficiais."
+}

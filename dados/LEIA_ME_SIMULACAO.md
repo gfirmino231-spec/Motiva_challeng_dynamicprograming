@@ -1,0 +1,3 @@
+# DADOS SIMULADOS — SEM ORIGEM NA MOTIVA
+
+Gerados por simulacao.py, semente 566903: 22 equipamentos fictícios, 96 leituras de 15 minutos cada. Carga e tendência de desgaste foram inseridas nas equações para produzir relações didáticas. As correlações resultantes decorrem dessa construção e não validam fenômenos físicos. A versão bruta contém duas duplicatas e três temperaturas ausentes, inseridas intencionalmente. São fornecidas também as leituras completas antes desses defeitos. Unidades, referências, escalas, pesos e limites são hipóteses de demonstração, sem calibração técnica. Não concatenar estes arquivos com dados reais.

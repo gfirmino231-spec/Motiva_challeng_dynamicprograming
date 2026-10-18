@@ -1,0 +1,38 @@
+{
+  "vibracao": {
+    "referencia": 2,
+    "escala": 1,
+    "peso": 2,
+    "sentido": "alto"
+  },
+  "temperatura": {
+    "referencia": 50,
+    "escala": 10,
+    "peso": 1,
+    "sentido": "alto"
+  },
+  "corrente": {
+    "referencia": 11,
+    "escala": 4,
+    "peso": 1,
+    "sentido": "alto"
+  },
+  "tensao": {
+    "referencia": 380,
+    "escala": 10,
+    "peso": 1,
+    "sentido": "bilateral"
+  },
+  "nivel_oleo": {
+    "referencia": 80,
+    "escala": 20,
+    "peso": 1,
+    "sentido": "baixo"
+  },
+  "velocidade": {
+    "referencia": 0.5,
+    "escala": 0.05,
+    "peso": 1,
+    "sentido": "bilateral"
+  }
+}

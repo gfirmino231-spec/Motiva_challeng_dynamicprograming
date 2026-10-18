@@ -1,0 +1,150 @@
+{
+  "atendimentos": [
+    {
+      "escada_id": "SIM-LUZ-ER02",
+      "estacao": "LUZ",
+      "criticidade": 7.081375425887752,
+      "saida_min": 0.0,
+      "rota": [
+        "BASE",
+        "VSO",
+        "MBI",
+        "BUT",
+        "PIN",
+        "FAL",
+        "FRA",
+        "FRE",
+        "PTA",
+        "HIG",
+        "REP",
+        "LUZ"
+      ],
+      "deslocamento_min": 40.0,
+      "servico_min": 45.0,
+      "conclusao_min": 85.0
+    },
+    {
+      "escada_id": "SIM-REP-ER02",
+      "estacao": "REP",
+      "criticidade": 6.081335394090209,
+      "saida_min": 85.0,
+      "rota": [
+        "LUZ",
+        "REP"
+      ],
+      "deslocamento_min": 4.0,
+      "servico_min": 45.0,
+      "conclusao_min": 134.0
+    },
+    {
+      "escada_id": "SIM-LUZ-ER01",
+      "estacao": "LUZ",
+      "criticidade": 6.053640339379992,
+      "saida_min": 134.0,
+      "rota": [
+        "REP",
+        "LUZ"
+      ],
+      "deslocamento_min": 4.0,
+      "servico_min": 45.0,
+      "conclusao_min": 183.0
+    },
+    {
+      "escada_id": "SIM-HIG-ER02",
+      "estacao": "HIG",
+      "criticidade": 5.542683129460532,
+      "saida_min": 183.0,
+      "rota": [
+        "LUZ",
+        "REP",
+        "HIG"
+      ],
+      "deslocamento_min": 7.0,
+      "servico_min": 45.0,
+      "conclusao_min": 235.0
+    },
+    {
+      "escada_id": "SIM-REP-ER01",
+      "estacao": "REP",
+      "criticidade": 5.224847249717771,
+      "saida_min": 235.0,
+      "rota": [
+        "HIG",
+        "REP"
+      ],
+      "deslocamento_min": 3.0,
+      "servico_min": 45.0,
+      "conclusao_min": 283.0
+    },
+    {
+      "escada_id": "SIM-PTA-ER02",
+      "estacao": "PTA",
+      "criticidade": 4.2975881329243375,
+      "saida_min": 283.0,
+      "rota": [
+        "REP",
+        "HIG",
+        "PTA"
+      ],
+      "deslocamento_min": 7.0,
+      "servico_min": 45.0,
+      "conclusao_min": 335.0
+    },
+    {
+      "escada_id": "SIM-HIG-ER01",
+      "estacao": "HIG",
+      "criticidade": 4.283774742749873,
+      "saida_min": 335.0,
+      "rota": [
+        "PTA",
+        "HIG"
+      ],
+      "deslocamento_min": 4.0,
+      "servico_min": 45.0,
+      "conclusao_min": 384.0
+    },
+    {
+      "escada_id": "SIM-PTA-ER01",
+      "estacao": "PTA",
+      "criticidade": 3.4951722896286483,
+      "saida_min": 384.0,
+      "rota": [
+        "HIG",
+        "PTA"
+      ],
+      "deslocamento_min": 4.0,
+      "servico_min": 45.0,
+      "conclusao_min": 433.0
+    }
+  ],
+  "nao_atendidas": [
+    "SIM-FRE-ER02",
+    "SIM-FRE-ER01",
+    "SIM-FRA-ER02",
+    "SIM-FRA-ER01",
+    "SIM-FAL-ER02",
+    "SIM-FAL-ER01",
+    "SIM-PIN-ER02",
+    "SIM-BUT-ER02",
+    "SIM-PIN-ER01",
+    "SIM-MBI-ER02",
+    "SIM-BUT-ER01",
+    "SIM-VSO-ER02",
+    "SIM-MBI-ER01",
+    "SIM-VSO-ER01"
+  ],
+  "rota_retorno": [
+    "PTA",
+    "FRE",
+    "FRA",
+    "FAL",
+    "PIN",
+    "BUT",
+    "MBI",
+    "VSO",
+    "BASE"
+  ],
+  "retorno_min": 29.0,
+  "total_min": 462.0,
+  "disponivel_min": 18.0
+}
